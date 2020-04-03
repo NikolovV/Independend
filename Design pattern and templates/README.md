@@ -52,7 +52,7 @@ Classified in three major groups:
 - ##### 3.9. Template Method
   Template Method is a behavioral design pattern that defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
 - ##### 3.10. Visitor
-Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+  Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
 
 Resources:
 - [refactoring.guru](https://refactoring.guru/design-patterns)
