@@ -11,9 +11,9 @@
 
 >Tree Traversals algorithm - DFS / BFS
 
--- **Trees**: binary, balanced, ordered
--- **Graphs**: directed / undirected, weighted
--- **Networks**: graphs with particular attributes
+- **Trees**: binary, balanced, ordered
+- **Graphs**: directed / undirected, weighted
+- **Networks**: graphs with particular attributes
 - ##### 2.1. Binary Search Trees
   >Insert, Search, Delete - O(n)
 ##### 3. Heaps and Priority Queues
@@ -24,11 +24,11 @@ Applications: Data Compression, Graph Shortest Path / GPS, Pathfinding / AI
 - ##### 3.2. Heaps
   >Heaps are used to implement priority queues
   - ##### 3.2.1. BinaryHeap
--- Insert - O(logN)
--- Deletion - O(logN)
--- Pull - O(logN)
--- Sort - O(NlogN)
--- Peek - O(1)
+  - Insert - O(logN)
+  - Deletion - O(logN)
+  - Pull - O(logN)
+  - Sort - O(NlogN)
+  - Peek - O(1)
   > Other Heap Data Structures: Binomial, Fibonacci, Pairing, Treap, Skew, Soft e.t.c
 - ##### 3.3. A* (A Star)
   > The A* pathfinding algorithm is a modification of Dijkstra's
@@ -104,18 +104,18 @@ Applications: Data Compression, Graph Shortest Path / GPS, Pathfinding / AI
   > A collision comes when different keys have the same hash value
   
 - Several collisions resolution strategies exist
--- Chaining collided keys (+ values) in a list
- -- Using other slots in the table (open addressing)
- -- Cuckoo hashing
+- Chaining collided keys (+ values) in a list
+ - Using other slots in the table (open addressing)
+ - Cuckoo hashing
 Chaining: Search / Insert / Delete - O(log N) / O(log N) / O(log N)
 - ##### 8.2. Set and Bag ADTs
   > Кeeps a set of elements with no duplicates
   > Sets with duplicates are also known as ADT "bag"
 - Set specific operations:
--- UnionWith(set)
--- IntersectWith(set)
--- ExceptWith(set)
--- SymmetricExceptWith(set)
+  - UnionWith(set)
+  - IntersectWith(set)
+  - ExceptWith(set)
+  - SymmetricExceptWith(set)
 - ##### 8.3. Dictionary (Map) ADT
   > The abstract data type (ADT) "dictionary" maps key to values
   > Many implementations: Hash table, balanced tree, list, array, ...
